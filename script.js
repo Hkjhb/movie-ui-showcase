@@ -118,7 +118,7 @@ const movies = [
     description:
       "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
     poster:
-      "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsLegHnDcdh9b.jpg",
+      "https://image.tmdb.org/t/p/original/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
   },
   {
     id: 11,

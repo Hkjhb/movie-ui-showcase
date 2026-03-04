@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie UI Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- ===== Hero Banner ===== -->
+    <header class="hero">
+      <h1 class="hero-title">🎬 Movie <span>UI Showcase</span></h1>
+      <p class="hero-subtitle">
+        Explore a curated collection of iconic films — filter by genre, search
+        by title, and discover your next watch.
+      </p>
+    </header>
+
+    <main class="container">
+
+      <!-- ===== Featured Film ===== -->
+      <section class="featured-section" aria-label="Featured film">
+        <h2 class="section-heading">Spotlight</h2>
+        <div id="featured-section"></div>
+      </section>
+
+      <!-- ===== Controls ===== -->
+      <div class="controls" role="search">
+        <div class="search-wrap">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Search movies…"
+            aria-label="Search movies by title"
+          />
+        </div>
+        <div id="genre-filters" role="group" aria-label="Filter by genre"></div>
+      </div>
+
+      <!-- ===== Movie Grid ===== -->
+      <section aria-label="Movie catalogue">
+        <h2 class="section-heading">All Movies</h2>
+        <div id="movie-grid" role="list"></div>
+        <div id="no-results" hidden role="status">
+          <div class="no-results-icon">🎞️</div>
+          <p>No movies found. Try a different search or genre.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+      <p>
+        Movie UI Showcase &mdash; Built with plain HTML, CSS &amp; JavaScript.
+        Poster images courtesy of
+        <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
